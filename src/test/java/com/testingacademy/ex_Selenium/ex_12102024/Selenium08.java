@@ -1,4 +1,4 @@
-package com.testingacademy.ex_Selenium;
+package com.testingacademy.ex_Selenium.ex_12102024;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

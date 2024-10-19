@@ -1,4 +1,4 @@
-package com.testingacademy.ex_Selenium;
+package com.testingacademy.ex_Selenium.ex_12102024;
 
 public class Selenium05 {
     // If you are using selenium 3.14
