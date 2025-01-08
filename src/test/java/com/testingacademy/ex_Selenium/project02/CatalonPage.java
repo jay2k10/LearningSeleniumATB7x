@@ -18,7 +18,14 @@ public class CatalonPage {
 
         Assert.assertEquals(driver.getTitle(),"CURA Healthcare Service");
         Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/");
-        Assert.assertEquals(driver.getPageSource(),"Make Appointment");
+        if(driver.getPageSource().contains("Make Appointment")){
+            Assert.assertEquals(true,true);
+            System.out.println("Match");
+
+        }else {
+            Assert.assertEquals(false,true);
+        }
+
 
     }
 }

@@ -46,12 +46,12 @@ public class Selenium04 {
         // 1. Do want to run on  Chrome or Edge?
         //ChromeDriver driver = new ChromeDriver(); ~1%
 
-        // 2  Do you want to run on Chrome then change to Edge ?
+        // 2 Do you want to run on Chrome then change to Edge?
         // WebDriver driver = new ChromeDriver();
         // driver = new EdgeDriver(); 97% -
 
 
-        // 3. do you want to run on multiple browsers, aws machine, ? 2%
+        // 3. do you want to run on multiple browsers, aws machine, 2%
         // RemoteWebDriver driver (with GRID) - Advance (Last 2 Sessions)
 
 

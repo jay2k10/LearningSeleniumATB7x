@@ -24,6 +24,7 @@ public class Selenium08 {
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--start-maximized");
         edgeOptions.addArguments("--window-size=800,600");
+        edgeOptions.addArguments("--incognito");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://google.com");
