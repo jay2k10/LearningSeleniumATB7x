@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Ebay {
 
@@ -18,6 +19,7 @@ public class Ebay {
         EdgeDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.ebay.com/b/Desktops-All-In-One-Computers/171957/bn_1643067");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -64,4 +66,3 @@ public class Ebay {
         }
 
     }
-}

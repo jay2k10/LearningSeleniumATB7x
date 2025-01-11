@@ -11,6 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class Selenium34 {
     @Description("Close modal of make my trip")
@@ -21,6 +22,8 @@ public class Selenium34 {
         driver.get("https://www.makemytrip.com/");
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(),"MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday");
+
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
        // WebElement close = driver.findElement(By.xpath("//span[@data-cy='closeModal']"));

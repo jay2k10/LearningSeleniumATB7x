@@ -1,4 +1,4 @@
-package com.testingacademy.ex_Selenium.ex_19102024;
+package com.testingacademy.ex_Selenium.ex_12102024;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -6,10 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Selenium24 {
+import java.time.Duration;
+
+public class ImplicitWaitExmp {
 
     // Locators - Find the Web elements
     // Open the URL .app.vwo.com/#/login](https://app.vwo.com/#/login)
@@ -58,14 +62,16 @@ public class Selenium24 {
 
         // After 3 seconds error comes
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
 
 
         WebElement errorMessage = driver.findElement(By.className("notification-box-description"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.textToBePresentInElement(errorMessage,"Your email, password, IP address or location did not match"));
         Assert.assertEquals(errorMessage.getText(), "Your email, password, IP address or location did not match");
         driver.quit();
 
