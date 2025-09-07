@@ -26,6 +26,7 @@ public class ReadingExcel {
            XSSFRow row = sheet.getRow(i);
             for (int j = 0; j < cols; j++) {
                 XSSFCell cell = row.getCell(j);
+                System.out.println(cell);
 
             }
         }

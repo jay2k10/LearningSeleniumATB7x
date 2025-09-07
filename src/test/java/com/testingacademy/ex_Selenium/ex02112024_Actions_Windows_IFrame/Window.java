@@ -7,10 +7,10 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class Window {
-
+    public WebDriver driver;
 
     public void handle(){
-        WebDriver driver = new EdgeDriver();
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("");
 
@@ -19,10 +19,8 @@ public class Window {
         Set<String> childWindow = driver.getWindowHandles();
         System.out.println(childWindow);
 
-        Iterator<String> itr = childWindow.iterator();
-        while (itr.hasNext()){
-            String ch = itr.next();
-            if(!ch.equals(parentWindow)){
+        for (String ch : childWindow) {
+            if (!ch.equals(parentWindow)) {
                 driver.switchTo().window(ch);
                 System.out.println(driver.switchTo().window(ch).getTitle());
                 driver.navigate().refresh();

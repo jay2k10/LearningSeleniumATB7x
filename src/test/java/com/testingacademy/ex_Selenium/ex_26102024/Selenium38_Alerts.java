@@ -36,6 +36,7 @@ public class Selenium38_Alerts {
 
 
 
+
         Alert alert = driver.switchTo().alert();
         alert.sendKeys("Jay Shankar");
         alert.accept();

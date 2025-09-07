@@ -4,10 +4,13 @@ import io.qameta.allure.Description;
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.List;
 
 public class Selenium40_SVG_P2 {
@@ -32,6 +35,8 @@ public class Selenium40_SVG_P2 {
         driver.manage().window().maximize();
         // local-name() , name()- Xpath (built in)
         // document.querySelectorAll("#login-username"); - JS
+
+
         JavascriptExecutor js = (JavascriptExecutor)driver;
         WebElement div_To_Scroll = driver.findElement(By.xpath("//div[@class='amcharts-chart-div']"));
         js.executeScript("arguments[0].scrollIntoView(true);",div_To_Scroll);

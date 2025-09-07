@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Naman/IdeaProjects/LearningSeleniumATB7x">
+        <classes>
+            <class name="com.testingacademy.ex_Selenium.FlipKart.Flipkart">
+                <methods>
+                    <include name="samsungMobile"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.LinkTestAll">
+                <methods>
+                    <include name="findAllLinkText"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Action_P2">
+                <methods>
+                    <include name="Shift"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Actions_P1">
+                <methods>
+                    <include name="upper_Case"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.AdminScreenShot">
+                <methods>
+                    <include name="adminScren"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.DragAndDrop">
+                <methods>
+                    <include name="drag"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.ScreenShot">
+                <methods>
+                    <include name="screenShotGoogle"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium47_Actions_P2">
+                <methods>
+                    <include name="test_actions_p2"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium48_Actions_P3">
+                <methods>
+                    <include name="test_actions_p3"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium49_Actions_Windows_P4">
+                <methods>
+                    <include name="test_windows_p4"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium50_Actions_Windows_Iframe_P5">
+                <methods>
+                    <include name="test_heatmap_clickmap_button"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium51_Actions_P6">
+                <methods>
+                    <include name="test_heatmap_clickmap_button"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium52_Actions_P7">
+                <methods>
+                    <include name="test_file_upload"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium53_Relative_Locators_P8">
+                <methods>
+                    <include name="test_file_upload"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium54_Relative_Locators_P2">
+                <methods>
+                    <include name="test_RL_P2"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.Selenium55_Relative_Locators_P3">
+                <methods>
+                    <include name="test_RL_P3"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.SwitchBetweenWindows">
+                <methods>
+                    <include name="window"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex02112024_Actions_Windows_IFrame.SwitchWindow">
+                <methods>
+                    <include name="window"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Alerts">
+                <methods>
+                    <include name="alerts"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.ClickForJSPrompt">
+                <methods>
+                    <include name="jsPrompt"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Dropdown">
+                <methods>
+                    <include name="dropDown"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Ebay">
+                <methods>
+                    <include name="print_imac_price"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.FlipKart">
+                <methods>
+                    <include name="searchShoe"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.IDrive">
+                <methods>
+                    <include name="accountExpire"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.ImplicitWaitExmp">
+                <methods>
+                    <include name="testVWOLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Katalon">
+                <methods>
+                    <include name="testPage"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.MiMobile">
+                <methods>
+                    <include name="miMobile"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Selenium03">
+                <methods>
+                    <include name="test_001"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Selenium04">
+                <methods>
+                    <include name="testMethod"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Selenium08">
+                <methods>
+                    <include name="testMethod01"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.Selenium10">
+                <methods>
+                    <include name="testQuitVsClose"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_12102024.VWOFreeTrial">
+                <methods>
+                    <include name="vwoFreeTrial"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium13">
+                <methods>
+                    <include name="createAccount"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium14">
+                <methods>
+                    <include name="testVWOLoginPageTitle"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium15">
+                <methods>
+                    <include name="vwoLogin"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium24">
+                <methods>
+                    <include name="testVWOLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium25">
+                <methods>
+                    <include name="testVwoLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium26">
+                <methods>
+                    <include name="testVwoLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_19102024.Selenium27">
+                <methods>
+                    <include name="test_error_free_trail"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_20102024.Selenium28">
+                <methods>
+                    <include name="test_sample"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_20102024.Selenium29">
+                <methods>
+                    <include name="test_verify_expire_message"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_20102024.Selenium30">
+                <methods>
+                    <include name="print_imac_price"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_26102024.Selenium32">
+                <methods>
+                    <include name="test_imac_price"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_26102024.Selenium33">
+                <methods>
+                    <include name="testVwoLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_26102024.Selenium34">
+                <methods>
+                    <include name="close_Modal"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_26102024.Selenium35_fluentWait">
+                <methods>
+                    <include name="testVwoLoginNegative"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.OrangeDemo">
+                <methods>
+                    <include name="login"/>
+                    <include name="terminateEmployee"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.OrangeHRM">
+                <methods>
+                    <include name="web_Table_Orange"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium041_OHRM_Homework">
+                <methods>
+                    <include name="test_orangeHRM"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium39_SVG_P1">
+                <methods>
+                    <include name="click_on_search"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium40_SVG_P2">
+                <methods>
+                    <include name="test_svg_india_search_click"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium41_Shadow_P1">
+                <methods>
+                    <include name="test_shadow_dom"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium42_JS_Demo_2">
+                <methods>
+                    <include name="test_js"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium43_JS_Demo">
+                <methods>
+                    <include name="test_js"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium44_WebTables_Static">
+                <methods>
+                    <include name="test_web_tables"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Selenium45_WebTables_Dynamic">
+                <methods>
+                    <include name="test_web_tables"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.Testngpractice">
+                <methods>
+                    <include name="open_url"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.ex_27102024.WebTable_Practice">
+                <methods>
+                    <include name="Web_Table"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.interviewPreperation.selectDropdown.naveenAutomation.com.TestNG.GoogleTest">
+                <methods>
+                    <include name="getTitle"/>
+                    <include name="googleLogoTest"/>
+                    <include name="gmailLink"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.interviewPreperation.selectDropdown.naveenAutomation.com.TestNG.TestNgBasics">
+                <methods>
+                    <include name="googleTitleTest"/>
+                    <include name="googleTitleTest1"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.interviewPreperation.selectDropdown.webTable.WebTable3">
+                <methods>
+                    <include name="WebTableDataPrint"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.project01.Selenium12">
+                <methods>
+                    <include name="testVWOLoginPageTitle"/>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_Selenium.project02.CatalonPage">
+                <methods>
+                    <include name="catalonPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

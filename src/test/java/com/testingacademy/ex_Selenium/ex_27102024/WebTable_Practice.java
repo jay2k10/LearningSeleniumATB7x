@@ -25,21 +25,22 @@ public class WebTable_Practice {
         String third_Part = "]";
 
         for (int i = 2; i < row; i++) {
-            for (int j = 1; j < col; j++) {
+            for (int j = 1; j <=col; j++) {
                 String dynamic_Xpath = first_Part + i + second_Part + j + third_Part;
                 String data = driver.findElement(By.xpath(dynamic_Xpath)).getText();
+                System.out.println(data);
 
-                if(data.contains("Helen Bennett")){
-                    String country_path= dynamic_Xpath+"/following-sibling::td";
-                    String company_path= dynamic_Xpath+"/preceding-sibling::td";
-
-                    String country_text = driver.findElement(By.xpath(country_path)).getText();
-                    String company_text = driver.findElement(By.xpath(company_path)).getText();
-                    System.out.println(country_text);
-                    System.out.println(company_text);
-
-
-                }
+//                if(data.contains("Helen Bennett")){
+//                    String country_path= dynamic_Xpath+"/following-sibling::td";
+//                    String company_path= dynamic_Xpath+"/preceding-sibling::td";
+//
+//                    String country_text = driver.findElement(By.xpath(country_path)).getText();
+//                    String company_text = driver.findElement(By.xpath(company_path)).getText();
+//                    System.out.println(country_text);
+//                    System.out.println(company_text);
+//
+//
+//                }
 
 
 

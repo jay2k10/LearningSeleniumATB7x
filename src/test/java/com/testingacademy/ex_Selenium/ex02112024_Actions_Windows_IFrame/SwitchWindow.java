@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class SwitchWindow {
 
@@ -20,6 +21,7 @@ public class SwitchWindow {
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.manage().deleteAllCookies();
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)");
@@ -49,6 +51,11 @@ public class SwitchWindow {
 //                System.out.println(driver.switchTo().window(childWindow).getTitle());
 //            }
 //        }
+       //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(2000));
+//        wait1.until(ExpectedConditions.alertIsPresent());
+
+
         for(String windowHandle : driver.getWindowHandles())
         {
             driver.switchTo().window(windowHandle);
